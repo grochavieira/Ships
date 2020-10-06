@@ -46,7 +46,7 @@ Uma aplicação que utiliza a API de GraphQL aberta do SpaceX e retorna um relat
 
 ## ⚙️ Funcionalidades
 
-- [ ] Inicializar projeto com TypeScript;
+- [x] Inicializar projeto com TypeScript;
 - [ ] Criar uma rota '/ships' para pegar os dados do navio;
 - [ ] Conectar o servidor com a API do ServiceX;
 - [ ] Pegar os dados da API e converter em CSV;

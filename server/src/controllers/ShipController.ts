@@ -28,7 +28,9 @@ class ShipController {
         response.json(csv);
       });
     } catch (e) {
-      console.log(e);
+      response
+        .status(400)
+        .json({ error: "Não foi possível realizar a requisição" });
     }
   }
 }

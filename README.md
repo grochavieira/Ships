@@ -48,7 +48,8 @@ Uma aplicação que utiliza a API de GraphQL aberta do SpaceX e retorna um relat
 
 - [x] Inicializar projeto com TypeScript;
 - [x] Criar uma rota '/ships' para pegar os dados do navio;
-- [ ] Conectar o servidor com a API do ServiceX;
+- [x] Conectar o servidor com a API do ServiceX;
+- [ ] Filtrar os navios que estão ativos;
 - [ ] Pegar os dados da API e converter em CSV;
 - [ ] Apresentar os dados na rota '/ships';
 
@@ -103,6 +104,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - **[Express](https://expressjs.com/)**
 - **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+- **[Axios](https://github.com/axios/axios)**
 - **[ts-node](https://github.com/TypeStrong/ts-node)**
 
 > Veja o arquivo [package.json](https://github.com/grochavieira/Ships/blob/master/server/package.json)

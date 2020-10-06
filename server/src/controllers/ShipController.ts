@@ -27,8 +27,6 @@ class ShipController {
         }
         response.json(csv);
       });
-
-      //   response.json(activeShips);
     } catch (e) {
       console.log(e);
     }

@@ -57,6 +57,10 @@ Uma aplicação que utiliza a API de GraphQL aberta do SpaceX e retorna um relat
 
 ## 🤖 Demonstração
 
+<p align="center">
+    <img src="assets/demonstration.gif">
+</p>
+
 ---
 
 ## 🚀 Como executar o projeto

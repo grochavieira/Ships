@@ -20,7 +20,7 @@
 </h1>
 
 <h4 align="center"> 
-	🚧  Site Concluído 🚧
+	🚧  Aplicação em construção 🚧
 </h4>
 
 ## 🏁 Tópicos

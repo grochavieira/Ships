@@ -51,7 +51,7 @@ Uma aplicação que utiliza a API de GraphQL aberta do SpaceX e retorna um relat
 - [x] Conectar o servidor com a API do ServiceX;
 - [x] Filtrar os navios que estão ativos;
 - [x] Pegar os dados da API e converter em CSV;
-- [ ] Apresentar os dados na rota '/ships';
+- [x] Apresentar os dados na rota '/ships';
 
 ---
 

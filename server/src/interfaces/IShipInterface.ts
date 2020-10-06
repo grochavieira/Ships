@@ -1,8 +1,9 @@
-export interface IMission {
+export interface IShip {
+  active: boolean;
   name: string;
 }
 
-export interface IShip {
-  active: boolean;
-  missions: Array<IMission>;
+export interface IMission {
+  mission_name: string;
+  ships: Array<IShip>;
 }

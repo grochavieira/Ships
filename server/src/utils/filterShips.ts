@@ -1,7 +1,23 @@
-import { IShip } from "../interfaces/IShipInterface";
+import { IMission, IShip } from "../interfaces/IShipInterface";
 
-export default function filterShips(ships: Array<IShip>) {
-  const filteredShips = ships.filter((ship: IShip) => ship.active);
+export default function filterShips(missions: Array<IMission>) {
+  const convertedShips: Array<object> = [];
+  missions.map((mission: IMission) => {
+    const { mission_name } = mission;
+    if (mission.ships.length > 0) {
+      mission.ships.map((ship: IShip) => {
+        if (ship) {
+          if (ship.active) {
+            const object = {
+              mission_name,
+              ship: ship.name,
+            };
+            convertedShips.push(object);
+          }
+        }
+      });
+    }
+  });
 
-  return filteredShips;
+  return convertedShips;
 }

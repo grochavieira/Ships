@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import api from "../services/api";
+import filterShips from "../utils/filterShips";
 
 class ShipController {
   async index(request: Request, response: Response) {
@@ -10,7 +11,6 @@ class ShipController {
             active
             missions {
               name
-              flight
             }
             name
           }
@@ -18,7 +18,10 @@ class ShipController {
         `;
       const { data } = await api.post("/", { query });
 
-      response.json(data);
+      const activeShips = filterShips(data.data.ships);
+      console.log(activeShips);
+
+      response.json(activeShips);
     } catch (e) {
       console.log(e);
     }

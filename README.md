@@ -1,10 +1,10 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/grochavieira/Ships?color=%2304D361&style=for-the-badge">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/grochavieira/ships?color=%2304D361&style=for-the-badge">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/grochavieira/Ships?style=for-the-badge">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/grochavieira/ships?style=for-the-badge">
   
-  <a href="https://github.com/grochavieira/Ships/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/grochavieira/Ships?style=for-the-badge">
+  <a href="https://github.com/grochavieira/ships/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/grochavieira/ships?style=for-the-badge">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
@@ -16,7 +16,7 @@
  
 </p>
 <h1 align="center">
-    Ships
+    ships
 </h1>
 
 <h4 align="center"> 
@@ -80,10 +80,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/grochavieira/Ships.git
+$ git clone https://github.com/grochavieira/ships.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd Ships
+$ cd ships
 
 # Vá para a pasta da aplicação server
 $ cd server
@@ -111,7 +111,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[Axios](https://github.com/axios/axios)**
 - **[ts-node](https://github.com/TypeStrong/ts-node)**
 
-> Veja o arquivo [package.json](https://github.com/grochavieira/Ships/blob/master/server/package.json)
+> Veja o arquivo [package.json](https://github.com/grochavieira/ships/blob/master/server/package.json)
 
 #### **Utilitários**
 
